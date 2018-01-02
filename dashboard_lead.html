@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--IE compitability-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--First Mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Disable zooming in mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Bootstrap Project-test</title>
+    <link href="https://fonts.googleapis.com/css?family=Cairo:700,900" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--=======START TOP PAGE BACKGROUND=======-->
+<div class="header-bg"></div>
+<!--=======START TOP PAGE BACKGROUND=======-->
+<!--#############################################################-->
+<!--========START SIDEBAR=========-->
+<nav id="sidebar" class="active">
+    <div class="sidebar-header">
+        <h3>EQuity <br><span>ERP</span></h3>
+        <!--<button type="button"  class="btn btn-info navbar-btn">-->
+            <img id="sidebarCollapse" src="assets/img/collapse-but.svg" alt="">
+        <!--</button>-->
+    </div>
+    <div class="color-bg">
+    <div class="media">
+        <div class="media-left">
+            <a href="#">
+                <img class="media-object" src="https://www.w3schools.com/howto/img_avatar2.png" alt="avatar">
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Media heading</h4>
+            <ul class="list-unstyled list-inline">
+                <li><span></span></li>
+                <li>ONLINE</li>
+                <li><i class="fa fa-power-off" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+    </div>
+    <div class="cols">
+        <div class="row">
+            <div class="col-xs-4">
+                <div class="text-center">
+                    <h4>798</h4>
+                    <small>LEADS</small>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="text-center">
+                    <h4>798</h4>
+                    <small>LEADS</small>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="text-center">
+                    <h4>798</h4>
+                    <small>LEADS</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul class="list-unstyled components">
+        <li class="active">
+            <a href="">
+                <i class="fa fa-line-chart" aria-hidden="true"></i>
+                <span>DASHBOARD</span>
+            </a>
+        </li>
+        <li>
+            <a href="#crmSubmenu" data-toggle="collapse" aria-expanded="false">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                <span>CRM</span>
+            </a>
+            <ul class="collapse list-unstyled" id="crmSubmenu">
+                <li><a href="#">Pre Lead</a></li>
+                <li><a href="#">Leads</a></li>
+                <li><a href="#">Contracts</a></li>
+                <li><a href="#">Calendar</a></li>
+                <li><a href="#">Marketing</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#projectsSubmenu" data-toggle="collapse" aria-expanded="false">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <span>PROJECTS</span>
+            </a>
+            <ul class="collapse list-unstyled" id="projectsSubmenu">
+                <li><a href="#">p1</a></li>
+                <li><a href="#">p1</a></li>
+                <li><a href="#">p1</a></li>
+                <li><a href="#">p1</a></li>
+                <li><a href="#">p1</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-align-left" aria-hidden="true"></i>
+                <span>REPORTS</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-cog" aria-hidden="true"></i>
+                <span>SETTINGS</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <span>PROFILE</span>
+            </a>
+        </li>
+    </ul>
+    </div>
+</nav>
+<!--========START SIDEBAR=========-->
+<!--##################################################################-->
+<!--=====START MAIN PAGE CONTENTS======-->
+<div class="main-contents">
+    <!--======== START TOP NAVBAR=======-->
+    <nav class="nav-bar-full">
+    <div class="container-fluid">
+        <div class="pull-left">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search...">
+            </div>
+        </div>
+        <div class="pull-right">
+            <ul class="list-unstyled list-inline">
+                <li><i class="fa fa-plus-circle" aria-hidden="true"></i></i>Add New Lead</li>
+                <li><i class="fa fa-star-o" aria-hidden="true"></i>Favorite Unit</li>
+                <li><i><i class="fa fa-envelope-o" aria-hidden="true"></i></i></li>
+                <li><img src="https://www.w3schools.com/howto/img_avatar2.png" alt="">Hesham Wattany <i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+
+
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <!--======== END TOP NAVBAR=======-->
+    <!--###########################################################-->
+    <!--START BREADCRUMB-->
+    <div class="br-crumb">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                <li><a href="#">CRM</a></li>
+                <li class="active">LEADS</li>
+            </ol>
+        </div>
+    </div>
+    <!--START BREADCRUMB-->
+    <!--#########################################################-->
+    <!--START LEADS-->
+    <section class="lead-pg">
+        <div class="container">
+            <h2>LEADS</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="leads-prs">
+                       <div class="search">
+                           <input type="text" class="form-control" placeholder="Search...">
+                       </div>
+                        <div class="contact new">
+                            <div class="circle-bg"><span>New</span></div>
+                            <div class="info">
+                                <h4>Nawaf Abo Safia</h4>
+                                <p>+201113840222</p>
+                            </div>
+                            <div class="time">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 11:54</li>
+                                    <li>Salma Sami</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contact new">
+                            <div class="circle-bg"><span>New</span></div>
+                            <div class="info">
+                                <h4>Nawaf Abo Safia</h4>
+                                <p>+201113840222</p>
+                            </div>
+                            <div class="time">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 11:54</li>
+                                    <li>Salma Sami</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contact new">
+                            <div class="circle-bg"><span>New</span></div>
+                            <div class="info">
+                                <h4>Nawaf Abo Safia</h4>
+                                <p>+201113840222</p>
+                            </div>
+                            <div class="time">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 11:54</li>
+                                    <li>Salma Sami</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contact new">
+                            <div class="circle-bg"><span>New</span></div>
+                            <div class="info">
+                                <h4>Nawaf Abo Safia</h4>
+                                <p>+201113840222</p>
+                            </div>
+                            <div class="time">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 11:54</li>
+                                    <li>Salma Sami</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contact follow">
+                            <div class="circle-bg"><span>New</span></div>
+                            <div class="info">
+                                <h4>Nawaf Abo Safia</h4>
+                                <p>+201113840222</p>
+                            </div>
+                            <div class="time">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 11:54</li>
+                                    <li>Salma Sami</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contact not-qualify">
+                            <div class="circle-bg"><span>New</span></div>
+                            <div class="info">
+                                <h4>Nawaf Abo Safia</h4>
+                                <p>+201113840222</p>
+                            </div>
+                            <div class="time">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 11:54</li>
+                                    <li>Salma Sami</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contact closed">
+                            <div class="circle-bg"><span>New</span></div>
+                            <div class="info">
+                                <h4>Nawaf Abo Safia</h4>
+                                <p>+201113840222</p>
+                            </div>
+                            <div class="time">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 11:54</li>
+                                    <li>Salma Sami</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contact on-going">
+                            <div class="circle-bg"><span>New</span></div>
+                            <div class="info">
+                                <h4>Nawaf Abo Safia</h4>
+                                <p>+201113840222</p>
+                            </div>
+                            <div class="time">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 11:54</li>
+                                    <li>Salma Sami</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contact follow">
+                            <div class="circle-bg"><span>New</span></div>
+                            <div class="info">
+                                <h4>Nawaf Abo Safia</h4>
+                                <p>+201113840222</p>
+                            </div>
+                            <div class="time">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 11:54</li>
+                                    <li>Salma Sami</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="lead-details">
+                        <div class="header-lead">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="lead-left">
+                                        <div class="lead-status pull-left">
+                                            <div class="circle-bg"><span>New</span></div>
+                                            <p>#2187</p>
+                                        </div>
+                                        <div class="lead-contact-details pull-left">
+                                            <ul class="list-unstyled">
+                                                <li><h3>Nawaf Abo Sief Fawaz</h3></li>
+                                                <li>Phone Number: +56584446 | +565634566</li>
+                                                <li>Address:Ras Al Khema, UAE</li>
+                                                <li>Gender:Male</li>
+                                                <li>Date of Birth:27/10/1977</li>
+                                                <li>ID Number:2985895435460</li>
+                                                <li>Lead Source: SMS</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="lead-contact-details-2">
+                                        <ul class="list-unstyled">
+                                            <li>Occupation: CEO</li>
+                                            <li>Company Name:Novartis</li>
+                                            <li>interest Project: Project X</li>
+                                            <li>Interest Villa: Villa, Twin, Apartment</li>
+                                            <li>Budget: 1,000,000 - 2,000,000</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="contact-lead">
+                                        <div class="form-group">
+                                            <label for="">Assign to agent</label>
+                                            <select name="" id="" class="form-control">
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                        </div>
+                                        <ul class="list-unstyled">
+                                            <li><i class="fa fa-commenting-o n-color" aria-hidden="true"></i> <span>Send SMS</span></li>
+                                            <li><i class="fa fa-times-circle q-color" aria-hidden="true"></i> <span>spam</span></li>
+                                            <li><i class="fa fa-pencil n-color" aria-hidden="true"></i> <span>Edit</span></li>
+                                            <li><i class="fa fa-trash-o f-color" aria-hidden="true"></i> <span>Delete</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lead-content-section">
+                            <div>
+
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation" class="active"><a href="#lead-activity" aria-controls="lead-activity" role="tab" data-toggle="tab">Lead Activity</a></li>
+                                    <li role="presentation"><a href="#status_update" aria-controls="profile" role="tab" data-toggle="tab">Status Updates</a></li>
+                                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Documents</a></li>
+                                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Favorite Units</a></li>
+                                </ul>
+
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane fade in active" id="lead-activity">
+                                        <div class="col-md-8">
+                                            <div class="time-line">
+                                                <h2>December, 2017</h2>
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <span class="crcle-t"></span>
+
+                                                        <div class="tm-content">
+                                                            <div class="date">27 Dec</div>
+                                                            <h5>Meeting Setup</h5>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cum dolorem eligendi labore libero ratione!</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <span class="crcle-t"></span>
+                                                        <div class="tm-content">
+                                                            <div class="date">27 Dec</div>
+                                                            <h5>Meeting Setup</h5>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cum dolorem eligendi labore libero ratione!</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <span class="crcle-t"></span>
+
+                                                        <div class="tm-content">
+                                                            <div class="date">27 Dec</div>
+                                                            <h5>Meeting Setup</h5>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cum dolorem eligendi labore libero ratione!</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <hr>
+                                            <div class="time-line">
+                                                <h2>December, 2017</h2>
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <span class="crcle-t"></span>
+
+                                                        <div class="tm-content">
+                                                            <div class="date">27 Dec</div>
+                                                            <h5>Meeting Setup</h5>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cum dolorem eligendi labore libero ratione!</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <span class="crcle-t"></span>
+                                                        <div class="tm-content">
+                                                            <div class="date">27 Dec</div>
+                                                            <h5>Meeting Setup</h5>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cum dolorem eligendi labore libero ratione!</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <span class="crcle-t"></span>
+
+                                                        <div class="tm-content">
+                                                            <div class="date">27 Dec</div>
+                                                            <h5>Meeting Setup</h5>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cum dolorem eligendi labore libero ratione!</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="action">
+                                                <form action="">
+                                                    <div class="form-group">
+                                                        <label for="">Action Name</label>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="">Action Description</label>
+                                                        <textarea type="text" class="form-control" rows="4"></textarea>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <button class="btn btn-primary pull-right">ADD ACTION</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="status_update">
+                                        <div class="status-update">
+                                            <div class="col-md-5">
+                                                <h3>Current Status: Follow Up</h3>
+                                                <div class="status">
+                                                    <form action="">
+                                                        <div class="form-group">
+                                                            <label for="">change Status</label>
+                                                            <select name="" id="" class="form-control">
+                                                                <option value="">1</option>
+                                                                <option value="">1</option>
+                                                                <option value="">1</option>
+                                                                <option value="">1</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="">change Reason</label>
+                                                            <textarea name="" id="" rows="6"class="form-control"></textarea>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <button class="btn btn-primary pull-right">CONFIRM</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="messages">
+                                        <div class="col-md-8">
+                                            <div class="document">
+                                                <h3>Add Lead Documents</h3>
+                                                <form action="">
+                                                    <div class="row">
+                                                        <div class="col-xs-6">
+                                                            <div class="form-group">
+                                                                <label for="">ID Numbers</label>
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <div class="form-group">
+                                                                <label for="">ID Numbers</label>
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-12">
+                                                            <div class="form-group">
+                                                                <label for="">Upload Scan</label>
+                                                                <input type="file" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-12">
+                                                            <div class="form-group">
+                                                                <button class="btn btn-primary pull-right">
+                                                                    CONFIRM
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <h4>Lead Documents</h4>
+                                                <table class="table">
+                                                    <tr>
+                                                        <th>Scan img</th>
+                                                        <th>Number</th>
+                                                        <th>Passport</th>
+                                                        <th>Last Edit</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">scan.png</a></td>
+                                                        <td>202312424124</td>
+                                                        <td>Passpoert</td>
+                                                        <td>Feb 12, 2017 </td>
+                                                    </tr
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="settings">...</div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END LEADS-->
+</div>
+<!--=====END MAIN PAGE CONTENTS======-->
+<!--JQuery liberary file-->
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<!--Bootstrap framework file-->
+<script src="assets/js/bootstrap.min.js"></script>
+<!--NiceScroll file-->
+<script src="assets/js/jquery.nicescroll.min.js"></script>
+<!--Main script file-->
+<script src="assets/js/main.js"></script>
+<script>
+
+
+</script>
+</body>
+
+</html>
